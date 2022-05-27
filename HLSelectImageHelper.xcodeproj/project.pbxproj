@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F39964ACDDD2D6767FD1391 /* Pods_HLSelectImageHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5D8EEC7BAA105C0B5B9887 /* Pods_HLSelectImageHelper.framework */; };
+		BB60DEE52840BF8A00871541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60DEE42840BF8A00871541 /* AppDelegate.m */; };
+		BB60DEEB2840BF8A00871541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60DEEA2840BF8A00871541 /* ViewController.m */; };
+		BB60DEEE2840BF8A00871541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB60DEEC2840BF8A00871541 /* Main.storyboard */; };
+		BB60DEF02840BF8C00871541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB60DEEF2840BF8C00871541 /* Assets.xcassets */; };
+		BB60DEF32840BF8C00871541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB60DEF12840BF8C00871541 /* LaunchScreen.storyboard */; };
+		BB60DEF62840BF8C00871541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60DEF52840BF8C00871541 /* main.m */; };
+		BB60DEFF2840BFB700871541 /* HLSelectImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60DEFE2840BFB700871541 /* HLSelectImageHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		448AD186510DDCDE42AEAE14 /* Pods-HLSelectImageHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSelectImageHelper.debug.xcconfig"; path = "Target Support Files/Pods-HLSelectImageHelper/Pods-HLSelectImageHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		6C2B086F85A6B983015B7ECC /* Pods-HLSelectImageHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSelectImageHelper.release.xcconfig"; path = "Target Support Files/Pods-HLSelectImageHelper/Pods-HLSelectImageHelper.release.xcconfig"; sourceTree = "<group>"; };
+		BB60DEE02840BF8A00871541 /* HLSelectImageHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSelectImageHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB60DEE32840BF8A00871541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB60DEE42840BF8A00871541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB60DEE92840BF8A00871541 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB60DEEA2840BF8A00871541 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB60DEED2840BF8A00871541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB60DEEF2840BF8C00871541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB60DEF22840BF8C00871541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB60DEF42840BF8C00871541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB60DEF52840BF8C00871541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB60DEFD2840BFB700871541 /* HLSelectImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSelectImageHelper.h; sourceTree = "<group>"; };
+		BB60DEFE2840BFB700871541 /* HLSelectImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLSelectImageHelper.m; sourceTree = "<group>"; };
+		EA5D8EEC7BAA105C0B5B9887 /* Pods_HLSelectImageHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLSelectImageHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB60DEDD2840BF8A00871541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F39964ACDDD2D6767FD1391 /* Pods_HLSelectImageHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68DF3F6BF05423B05EFE9AA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				448AD186510DDCDE42AEAE14 /* Pods-HLSelectImageHelper.debug.xcconfig */,
+				6C2B086F85A6B983015B7ECC /* Pods-HLSelectImageHelper.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1C2CF9E2918BF301B89FF3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D8EEC7BAA105C0B5B9887 /* Pods_HLSelectImageHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB60DED72840BF8A00871541 = {
+			isa = PBXGroup;
+			children = (
+				BB60DEE22840BF8A00871541 /* HLSelectImageHelper */,
+				BB60DEE12840BF8A00871541 /* Products */,
+				68DF3F6BF05423B05EFE9AA6 /* Pods */,
+				A1C2CF9E2918BF301B89FF3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB60DEE12840BF8A00871541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB60DEE02840BF8A00871541 /* HLSelectImageHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB60DEE22840BF8A00871541 /* HLSelectImageHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BB60DEFC2840BFAA00871541 /* HLSelectImageHelper */,
+				BB60DEE32840BF8A00871541 /* AppDelegate.h */,
+				BB60DEE42840BF8A00871541 /* AppDelegate.m */,
+				BB60DEE92840BF8A00871541 /* ViewController.h */,
+				BB60DEEA2840BF8A00871541 /* ViewController.m */,
+				BB60DEEC2840BF8A00871541 /* Main.storyboard */,
+				BB60DEEF2840BF8C00871541 /* Assets.xcassets */,
+				BB60DEF12840BF8C00871541 /* LaunchScreen.storyboard */,
+				BB60DEF42840BF8C00871541 /* Info.plist */,
+				BB60DEF52840BF8C00871541 /* main.m */,
+			);
+			path = HLSelectImageHelper;
+			sourceTree = "<group>";
+		};
+		BB60DEFC2840BFAA00871541 /* HLSelectImageHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BB60DEFD2840BFB700871541 /* HLSelectImageHelper.h */,
+				BB60DEFE2840BFB700871541 /* HLSelectImageHelper.m */,
+			);
+			path = HLSelectImageHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB60DEDF2840BF8A00871541 /* HLSelectImageHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB60DEF92840BF8C00871541 /* Build configuration list for PBXNativeTarget "HLSelectImageHelper" */;
+			buildPhases = (
+				A5A93107F9546A292B96C952 /* [CP] Check Pods Manifest.lock */,
+				BB60DEDC2840BF8A00871541 /* Sources */,
+				BB60DEDD2840BF8A00871541 /* Frameworks */,
+				BB60DEDE2840BF8A00871541 /* Resources */,
+				B02837BD5BA6B6522B64AA05 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLSelectImageHelper;
+			productName = HLSelectImageHelper;
+			productReference = BB60DEE02840BF8A00871541 /* HLSelectImageHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB60DED82840BF8A00871541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BB60DEDF2840BF8A00871541 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = BB60DEDB2840BF8A00871541 /* Build configuration list for PBXProject "HLSelectImageHelper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB60DED72840BF8A00871541;
+			productRefGroup = BB60DEE12840BF8A00871541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB60DEDF2840BF8A00871541 /* HLSelectImageHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB60DEDE2840BF8A00871541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB60DEF32840BF8C00871541 /* LaunchScreen.storyboard in Resources */,
+				BB60DEF02840BF8C00871541 /* Assets.xcassets in Resources */,
+				BB60DEEE2840BF8A00871541 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5A93107F9546A292B96C952 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLSelectImageHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B02837BD5BA6B6522B64AA05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLSelectImageHelper/Pods-HLSelectImageHelper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLSelectImageHelper/Pods-HLSelectImageHelper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLSelectImageHelper/Pods-HLSelectImageHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB60DEDC2840BF8A00871541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB60DEEB2840BF8A00871541 /* ViewController.m in Sources */,
+				BB60DEE52840BF8A00871541 /* AppDelegate.m in Sources */,
+				BB60DEF62840BF8C00871541 /* main.m in Sources */,
+				BB60DEFF2840BFB700871541 /* HLSelectImageHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB60DEEC2840BF8A00871541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB60DEED2840BF8A00871541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB60DEF12840BF8C00871541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB60DEF22840BF8C00871541 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB60DEF72840BF8C00871541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB60DEF82840BF8C00871541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB60DEFA2840BF8C00871541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448AD186510DDCDE42AEAE14 /* Pods-HLSelectImageHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HLSelectImageHelper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcw.HLSelectImageHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB60DEFB2840BF8C00871541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2B086F85A6B983015B7ECC /* Pods-HLSelectImageHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HLSelectImageHelper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcw.HLSelectImageHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB60DEDB2840BF8A00871541 /* Build configuration list for PBXProject "HLSelectImageHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB60DEF72840BF8C00871541 /* Debug */,
+				BB60DEF82840BF8C00871541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB60DEF92840BF8C00871541 /* Build configuration list for PBXNativeTarget "HLSelectImageHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB60DEFA2840BF8C00871541 /* Debug */,
+				BB60DEFB2840BF8C00871541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB60DED82840BF8A00871541 /* Project object */;
+}
