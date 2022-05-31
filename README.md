@@ -4,7 +4,7 @@
 ##### 支持使用CocoaPods引入, Podfile文件中添加:
 
 ``` objc
-pod 'HLSelectImageHelper', '1.0.0'
+pod 'HLSelectImageHelper', '1.0.1'
 ```
 
 基本使用方法:<p>
@@ -35,7 +35,11 @@ pod 'HLSelectImageHelper', '1.0.0'
 iOS 9.0 +, Xcode 7.0 +
 
 # Version
+    
+* 1.0.1 :
 
+  修改描述文件
+    
 * 1.0.0 :
 
   完成HLSelectImageHelper基础搭建
