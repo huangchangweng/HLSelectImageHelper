@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "HLSelectImageHelper"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "对TZImagePickerController简单封装"
 
   # 描述
@@ -22,15 +22,15 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
 
   # git仓库，tag
-  spec.source       = { :git => "git@github.com:huangchangweng/HLSelectImageHelper.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/huangchangweng/HLSelectImageHelper.git", :tag => spec.version.to_s }
   
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
   # 资源路径
-  spec.source_files  = "HLSelectImageHelper/HLSelectImageHelper/*.{h,m}"
+  spec.source_files = "HLSelectImageHelper/HLSelectImageHelper/*.{h,m}"
   
   # 依赖系统库
-  spec.frameworks = "UIKit"
+  spec.frameworks   = "UIKit"
 
   # 依赖第三方库
   spec.dependency "TZImagePickerController", "3.7.1"
