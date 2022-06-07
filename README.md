@@ -29,6 +29,8 @@ pod 'HLSelectImageHelper', '1.0.1'
                  fromVc:(UIViewController *)fromVc
                   block:(void(^)(UIImage *image))block;
 ```
+    
+> 注意在Info.plist中添加`Privacy - Camera Usage Description`和`Privacy - Photo Library Usage Description`（访问相机、相册）权限说明
 
 # Requirements
 
