@@ -20,6 +20,7 @@
                block:(void(^)(NSArray<UIImage *> *images))block
 {
     TZImagePickerController *vc = [TZImagePickerController new];
+    vc.allowCameraLocation = NO;
     vc.maxImagesCount = maxImagesCount;
     vc.allowTakePicture = allowTakePicture;
     vc.allowCrop = allowCrop;
@@ -43,6 +44,7 @@
                   block:(void(^)(UIImage *image))block
 {
     TZImagePickerController *vc = [TZImagePickerController new];
+    vc.allowCameraLocation = NO;
     vc.maxImagesCount = 1;
     vc.allowCrop = YES;
     vc.showSelectBtn = NO;

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "HLSelectImageHelper"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "对TZImagePickerController简单封装"
 
   # 描述
