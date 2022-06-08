@@ -37,7 +37,11 @@ pod 'HLSelectImageHelper', '1.0.1'
 # Requirements
 
 iOS 9.0 +, Xcode 7.0 +
-
+    
+# Dependency
+    
+"TZImagePickerController", "3.7.1"
+    
 # Version
     
 * 1.0.2 :
