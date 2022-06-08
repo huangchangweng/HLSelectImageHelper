@@ -31,12 +31,17 @@ pod 'HLSelectImageHelper', '1.0.1'
 ```
     
 > 注意在Info.plist中添加`Privacy - Camera Usage Description`和`Privacy - Photo Library Usage Description`（访问相机、相册）权限说明
+> 注意`TZImagePickerController`默认显示英文，需在Info.plist添加`Localizations`后添加`Chinese (simplified)`，即可显示中文
 
 # Requirements
 
 iOS 9.0 +, Xcode 7.0 +
 
 # Version
+    
+* 1.0.2 :
+
+  关闭拍照定位
     
 * 1.0.1 :
 
